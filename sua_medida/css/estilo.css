@@ -1,0 +1,274 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #EBECEA;
+    /* Definindo a fonte padrão e removendo margens e espaçamentos padrões */
+}
+
+header {
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    /* Estilo do cabeçalho */
+}
+
+#area_cabecalho{
+	background-position:center;
+    background-image: url(../img/fundo.jpeg);
+	background-repeat: no-repeat;
+	padding: 15px;
+	text-align: center;
+	height: 600px;}
+
+    #area_logo {
+        padding: 10px;
+        font-style: italic;
+    }
+#cor_logo{
+    font-size: 100px;
+}
+.container-fluid a:link{
+font-size: 20px;
+color: #404040;
+padding: 10px;
+text-decoration: none;
+}
+.container-fluid a:visited{
+color: #404040;
+}
+.container-fluid Sa:hover{
+color: #919396;
+background-color: #333333;
+border-radius: 5px;
+}
+.logo {
+  max-width: 200px; /* Ajuste o tamanho máximo da logo */
+  height: auto; /* Mantém a proporção da imagem */
+  color: #fff;
+}
+nav{
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    /* Removendo a lista padrão */
+}
+
+nav ul li {
+    display: inline;
+    color: #919396;
+    /* Navegação horizontal */
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    /* Estilizando os links */
+}
+
+a:hover {
+    color: white;
+    /* Efeito hover para links */
+}
+
+section {
+    max-width: 900px;  /* Ajuste para o tamanho desejado */
+    margin: 20px auto;
+    padding: 20px;
+    /* Ajuste do tamanho da seção e remoção de padding extra */
+}
+
+.home ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+    gap: 50px;  /* Ajuste para o espaçamento desejado entre imagens */
+    /* Usando flexbox para espaçar as imagens */
+}
+
+.home ul li {
+    flex: 1;
+    padding: 10px;
+    background-color: whitesmoke;
+    color: black; /* Garantindo legibilidade */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 10px; /* Ajustando o espaço abaixo dos itens da lista */
+    transition: transform 0.3s ease-in-out;
+    /* Estilizando cada item da lista */
+}
+
+.home ul li img {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out;
+    /* Estilizando as imagens */
+}
+
+.home ul li:hover img {
+    transform: scale(1.05);
+    /* Efeito de zoom nas imagens ao passar o mouse */
+}
+
+.home ul li:hover {
+    transform: translateY(-5px);
+    /* Efeito de movimento para o item da lista ao passar o mouse */
+}
+
+.home .home-descricao {
+    font-size: 15px;
+    color: black;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* Estilo da descrição abaixo das imagens */
+}
+#section2 p{
+    color: black;
+    text-align: justify;
+    padding: 15px;
+    font-size: 28px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#section1, #section2, #section3, #section4 h1{
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    
+}
+form label{
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+form input{
+    background-color: #CFD1D2;
+    width: 300px;
+    height: 50px;
+    padding: 0 5%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 90%;
+    border: 1px solid #515254;
+    border-radius: 8px;
+}
+form input[type="submit"]{
+    width: 50%;
+    margin-top: 5%;
+    border-radius: 32px;
+    color: white;
+    font-size: 90%;
+}
+form input[type="submit"]:hover {
+    background-color: black;
+    font-size: 100%;
+}
+button {
+    background-color: #CFD1D2;
+    font-size: 100%;
+    color: black;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.placeholder {
+    color:black;
+}
+h1{
+    color: #404040;
+}
+
+footer {
+
+    background-color: white;
+    color: black;
+    padding: 20px 0;
+}
+/*rodape*/
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+/*inicio da sessão rodape*/
+.footer-section {
+  flex: 1;
+  margin: 10px;
+}
+/*subtitulo do rodape*/
+.footer-section h4 {
+  margin-bottom: 10px;
+}
+/*lista rodape*/
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+  text-align: justify;
+}
+
+.footer-section ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+
+}
+/*foto da midia social para contato*/
+.footer-section.social-media {
+  display: flex;
+  justify-content: space-around;
+}
+.footer-section.social-media img{
+    height: 50px;
+    width: 50px;
+}
+
+.footer-section.social-media a {
+  color: #bbb8b4;
+  font-size: 20px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+
+/*direitos reservados*/
+.footer-copyright {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+
+
+
+/* Estilos para a seção do perfil */
+#perfil {
+    background-color: black; /* Cor de fundo leve */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    border-bottom: 1px solid #dee2e6; /* Linha de separação */
+}
+
+header {
+    margin-top: 0px; /* Espaço entre o perfil e o cabeçalho */
+}
+span {
+    color: #404040;
+}
